@@ -43,3 +43,8 @@ npm install
 --
 Для того, чтобы скачать все подключенные пакеты достаточно запустить следующую команду:
 bower install
+
+
+--
+	bower install tooltip.js=https://unpkg.com/tooltip.js --save
+	bower install popper.js --save
