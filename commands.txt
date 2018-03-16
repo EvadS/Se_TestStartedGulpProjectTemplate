@@ -1,0 +1,45 @@
+﻿
+npm install -g bower
+npm install -g gulp
+
+--------------------
+
+прописать в package.json 
+
+npm install gulp --save-dev // установка gulp
+npm install browser-sync --save-dev // установка browser-sync (плагина для gulp)
+npm install del --save-dev // установка del (плагина для gulp)
+npm install gulp-autoprefixer --save-dev // установка gulp-autoprefixer (плагина для gulp)
+npm install gulp-cache --save-dev // установка gulp-cache
+npm install gulp-clean-css --save-dev // установка gulp-clean-css
+npm install gulp-imagemin --save-dev // установка gulp-imagemin
+npm install gulp-plumber --save-dev // установка gulp-plumber
+npm install gulp-rigger --save-dev // установка gulp-rigger
+npm install gulp-sass --save-dev // установка gulp-sass
+npm install gulp-sourcemaps --save-dev // установка gulp-sourcemaps
+npm install gulp-uglify --save-dev // установка gulp-uglify
+npm install imagemin-jpeg-recompress --save-dev // установка imagemin-jpeg-recompress
+npm install imagemin-pngquant --save-dev // установка imagemin-pngquant
+
+и выполнить 
+npm init
+-------------------------
+поддтянуть все что bower.json
+bower init
+
+----------------------------------------------------------------------------
+
+Открыть командную строку (путь должен указывать на корневую папку проекта) и ввести gulp.
+
+gulp
+
+После ввода этой команды запустится задача по умолчанию (default)
+
+====================== ЗАПУСК ================
+
+на новом месте запустить:
+npm install
+После этого все зависимости проекта будут установлены автоматически.
+--
+Для того, чтобы скачать все подключенные пакеты достаточно запустить следующую команду:
+bower install
