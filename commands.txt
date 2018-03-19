@@ -29,11 +29,12 @@ bower init
 
 ----------------------------------------------------------------------------
 
-Открыть командную строку (путь должен указывать на корневую папку проекта) и ввести gulp.
 
-gulp
+--
+	bower install tooltip.js=https://unpkg.com/tooltip.js --save
+	bower install popper.js --save
 
-После ввода этой команды запустится задача по умолчанию (default)
+
 
 ====================== ЗАПУСК ================
 
@@ -45,6 +46,11 @@ npm install
 bower install
 
 
---
-	bower install tooltip.js=https://unpkg.com/tooltip.js --save
-	bower install popper.js --save
+Открыть командную строку (путь должен указывать на корневую папку проекта) и ввести gulp.
+gulp
+После ввода этой команды запустится задача по умолчанию (default)
+
+
+если обнаружатся ошибки 
+1. удалить node_modules и  dower_Components
+2 npm instal -> bower install -> gulp
